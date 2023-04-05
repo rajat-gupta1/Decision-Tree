@@ -299,7 +299,7 @@ def plot_generation(Train_accuracy, Test_accuracy):
     plt.xlabel("Depth of the tree")
     plt.ylabel("Accuracy")
     plt.legend(loc="upper left")
-    plt.savefig("validation.pdf", format="pdf", bbox_inches="tight")
+    plt.savefig("validation.png", format="png", bbox_inches="tight")
 
 def main(argv): 
     
